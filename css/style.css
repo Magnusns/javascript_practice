@@ -1,0 +1,40 @@
+/*section 1*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#countSection {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#countSection .countBackground {
+  height: 80vh;
+  width: 50vh;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#countSection .countBackground .countOutput {
+  margin: 10px;
+  padding: 5vh;
+  background-color: white;
+}
+
+#countSection .countBackground .countOutput p {
+  font-size: 20vh;
+}
+
+#countSection input {
+  height: 3em;
+  width: 5em;
+  outline: none;
+  margin: 0.3em;
+}
